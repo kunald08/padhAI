@@ -1,0 +1,68 @@
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+env.bak/
+venv.bak/
+
+# Packages / distributions
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+share/python-wheels/
+sdist/
+*.egg
+
+# Logs
+logs/
+*.log
+
+# ML model binaries
+*.pt
+*.pth
+*.ckpt
+*.pickle
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.hdf5
+*.tflite
+
+# Tensorboard
+tensorboard/
+tb_logs/
+runs/
+
+# =============================
+# JUPYTER NOTEBOOK
+# =============================
+.ipynb_checkpoints/
+.jupyter/
+.profile/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# Others
+*.swp
+*.swo
+
+# =============================
+# OS FILES
+# =============================
+.DS_Store
+Thumbs.db
